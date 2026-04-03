@@ -1,4 +1,4 @@
-# Danny's Diner Exploratory Data Analysis 
+# Danny's Diner Case Study
 
 I worked on [Data with Danny's case study #1](https://8weeksqlchallenge.com/case-study-1/) to practice my SQL skills. Big thanks to Data with Danny for creating such an amazing opportunity!
 
@@ -11,6 +11,8 @@ Danny's diner opened 3 new restuarants a few months ago focused on sushi, curry,
 #### Can you identify key details about Danny's Diner's customers, including visiting patterns and favorite menu items? 
 
 ## Methodology:
+
+Use SQL queries to answer a series of 10 questions the owner of Danny's Diner has presented. 
 
 ## Skills: 
 
