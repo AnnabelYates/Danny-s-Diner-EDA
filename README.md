@@ -6,6 +6,9 @@ I worked on [Data with Danny's case study #1](https://8weeksqlchallenge.com/case
 
 ## Business Problem:
 
+Danny's diner opened 3 new restuarants a few months ago focused on sushi, curry, and ramen. 
+
+
 #### State business question
 
 ## Methodology:
