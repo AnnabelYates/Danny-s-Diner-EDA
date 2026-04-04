@@ -6,7 +6,7 @@ I worked on [Data with Danny's case study #1](https://8weeksqlchallenge.com/case
 
 ## Business Problem:
 
-Danny's diner opened a new restuarant a few months ago focused on sushi, curry, and ramen. The owner would like to focus on their customer database to improve customer experience. Insights about his customers will determine changes to the existing customer loyalty program. He has provided samples from 3 datasets: sales, menu and members. Danny has provided a list of questions about his customers that he would like answered.  
+Danny's Diner opened a new restuarant a few months ago focused on sushi, curry, and ramen. The owner would like to focus on their customer database to improve customer experience. Insights about his customers will determine changes to the existing customer loyalty program. He has provided samples from 3 datasets: sales, menu and members. Danny has provided a list of questions about his customers that he would like answered. Danny's Diner also needs a dataset containing the raw information provided that can be searched by employees without using SQL.    
 
 #### Can you identify key details about Danny's Diner's customers, including visiting patterns and favorite menu items? 
 
@@ -16,13 +16,19 @@ Danny's diner opened a new restuarant a few months ago focused on sushi, curry, 
    
 <img width="1653" height="200" alt="image" src="https://github.com/user-attachments/assets/301e8589-2da9-4971-b743-bf3b0f5890aa" />
 
-2) Use SQL queries to answer a series of 10 questions the owner of Danny's Diner has presented. 
+2) Use SQL queries to answer a series of 10 questions the owner of Danny's Diner has presented.
+   
+3) Create a dataset friendly for employee use with the spreadsheet software Excel.
 
 ## Skills: 
 
 #### SQL:
 
 creating schemas and data tables, basic queries, JOINs, SUMs 
+
+#### SQL:
+
+tables, data entry 
 
 ## Results and Business Recommendations:
 
@@ -46,13 +52,23 @@ creating schemas and data tables, basic queries, JOINs, SUMs
   
 <img width="571" height="510" alt="image" src="https://github.com/user-attachments/assets/606206dc-a0e3-4367-82de-a647333dabc5" />
 
-   
-6) What is the most purchased item on the menu and how many times was it purchased by all customers?
-7) Which item was the most popular for each customer?
-8) Which item was purchased first by the customer after they became a member?
-9) Which item was purchased just before the customer became a member?
-10) What is the total items and amount spent for each member before they became a member?
-11) If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-12) In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+4) What is the most purchased item on the menu and how many times was it purchased by all customers?
+
+The most purchased item is ramen and it was purchased 8 times total. 
+
+<img width="731" height="416" alt="image" src="https://github.com/user-attachments/assets/eb6e720a-7ce6-4f05-9c97-f60044ed5d60" />
+
+5) Which item was the most popular for each customer?
+
+Customer A ordered ramen the most (3 times). Customer B ordered every product (ramen, curry, sushi) 2 times each. Customer C only ordered ramen (3 times).
+
+<img width="669" height="546" alt="image" src="https://github.com/user-attachments/assets/ad24ab36-3bf7-4f56-a386-d024b5748cde" />
+
+9) Which item was purchased first by the customer after they became a member?
+10) Which item was purchased just before the customer became a member?
+11) What is the total items and amount spent for each member before they became a member?
+12) If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+13) In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January? 
 
 ## Next Steps: 
+Repeat an exploratory data analysis with data from more customers. This will yield more valuable insights. Customer_id can be removed from the dataset or replaced with a random string (token) for anonymity to address the business owner's concerns about customer privacy. 
