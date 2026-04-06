@@ -24,7 +24,7 @@ Danny's Diner opened a new restuarant a few months ago focused on sushi, curry, 
 
 #### SQL:
 
-creating schemas and data tables, basic queries, JOINs, SUMs 
+creating schemas and data tables, basic queries, JOINs, SUMs, aggregations with CASE WHEN 
 
 #### Spreadsheets:
 
