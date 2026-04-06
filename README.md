@@ -26,9 +26,9 @@ Danny's Diner opened a new restuarant a few months ago focused on sushi, curry, 
 
 creating schemas and data tables, basic queries, JOINs, SUMs 
 
-#### SQL:
+#### Spreadsheets:
 
-tables, data entry 
+Excel, tables, data entry 
 
 ## Results and Business Recommendations:
 
@@ -64,11 +64,27 @@ Customer A ordered ramen the most (3 times). Customer B ordered every product (r
 
 <img width="669" height="546" alt="image" src="https://github.com/user-attachments/assets/ad24ab36-3bf7-4f56-a386-d024b5748cde" />
 
-9) Which item was purchased first by the customer after they became a member?
-10) Which item was purchased just before the customer became a member?
-11) What is the total items and amount spent for each member before they became a member?
-12) If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-13) In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January? 
+6) Which item was purchased first by the customer after they became a member?
+
+Customer A joined the member club on January 7, 2021, and their first order was curry on the same day they became a member. Customer B became a member on January 9, 2021, and their first order was for sushi on January 11, 2021. Customer C is not a member. 
+
+<img width="869" height="607" alt="image" src="https://github.com/user-attachments/assets/03fc32d2-f792-4d5a-9d11-e30e3b0b69ac" />
+   
+7) Which item was purchased just before the customer became a member?
+
+Prior to becoming a member, Customer A purchased sushi and curry on January 1, 2021. Customer A purchased sushi on January 4, 2021. Customer C is not a member. 
+
+<img width="840" height="566" alt="image" src="https://github.com/user-attachments/assets/7c31878f-29b3-4f67-a809-2011c86b37cf" />
+
+8) What is the total items and amount spent for each member before they became a member?
+
+After becoming a member, Customer A ordered a total of 4 items and the total sales was $51. Customer B ordered 3 items and the total sales was $34. Customer C is not a member. 
+
+<img width="898" height="527" alt="image" src="https://github.com/user-attachments/assets/16bbd56a-f32a-4e7a-bddc-738c57d18817" />
+
+    
+13) 12) If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+14) In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January? 
 
 ## Next Steps: 
 Repeat an exploratory data analysis with data from more customers. This will yield more valuable insights. Customer_id can be removed from the dataset or replaced with a random string (token) for anonymity to address the business owner's concerns about customer privacy. 
