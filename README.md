@@ -95,4 +95,7 @@ With these conditions, customer A would have 1020 points and customer B would ha
 <img width="912" height="534" alt="image" src="https://github.com/user-attachments/assets/fc945bd7-ccbe-47cc-a473-397b6d9fcaf1" />
 
 ## Next Steps: 
-Repeat an exploratory data analysis with data from more customers. This will yield more valuable insights. Customer_id can be removed from the dataset or replaced with a random string (token) for anonymity to address the business owner's concerns about customer privacy. 
+
+1) Repeat an exploratory data analysis with data from more customers. This will yield more valuable insights. Customer_id can be removed from the dataset or replaced with a random string (token) for anonymity to address the business owner's concerns about customer privacy. 
+
+2) Consider integrating a points system for members. Data before and after this change can be analyzed to determine if this change led to significantly higher sales, an increase in membership numbers, or overall greater customer visits. 
