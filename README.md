@@ -78,9 +78,9 @@ Prior to becoming a member, Customer A purchased sushi and curry on January 1, 2
 
 #### 8) What is the total items and amount spent for each member before they became a member?
 
-After becoming a member, Customer A ordered a total of 4 items and the total sales was $51. Customer B ordered 3 items and the total sales was $34. Customer C is not a member. 
+Before  becoming a member, Customer A ordered a total of 2 items and the total sales was $25. Customer B ordered 3 items and the total sales was $40. Customer C is not a member. 
 
-<img width="898" height="527" alt="image" src="https://github.com/user-attachments/assets/16bbd56a-f32a-4e7a-bddc-738c57d18817" />
+<img width="927" height="537" alt="image" src="https://github.com/user-attachments/assets/b1e87e19-17f8-4173-9432-dfb811c3a74b" />
    
 #### 9) If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 
@@ -94,8 +94,13 @@ With these conditions, customer A would have 1020 points and customer B would ha
 
 <img width="912" height="534" alt="image" src="https://github.com/user-attachments/assets/fc945bd7-ccbe-47cc-a473-397b6d9fcaf1" />
 
+### Business Recommendations: 
+
+- Consider integrating a points system for members. This could assist with member recruitment and data indicates that members have higher sales than non-members. 
+- The most popular menu item is ramen. This could be a product to develop into new menu items with variations of the original recipe. 
+
 ## Next Steps: 
 
 1) Repeat an exploratory data analysis with data from more customers. This will yield more valuable insights. Customer_id can be removed from the dataset or replaced with a random string (token) for anonymity to address the business owner's concerns about customer privacy. 
 
-2) Consider integrating a points system for members. Data before and after this change can be analyzed to determine if this change led to significantly higher sales, an increase in membership numbers, or overall greater customer visits. 
+2) If a membership points program is implemented, data before and after this change can be analyzed to determine if this change led to significantly higher sales, an increase in membership numbers, or overall greater customer visits. 
