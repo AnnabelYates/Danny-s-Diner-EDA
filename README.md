@@ -96,11 +96,14 @@ With these conditions, customer A would have 1020 points and customer B would ha
 
 ### Business Recommendations: 
 
-- Consider integrating a points system for members. This could assist with member recruitment and data indicates that members have higher sales than non-members. 
+- Consider integrating a points system for members. This could assist with member recruitment and data indicates that members have higher sales than non-members.
+   
 - The most popular menu item is ramen. This could be a product to develop into new menu items with variations of the original recipe. 
 
 ## Next Steps: 
 
 1) Repeat an exploratory data analysis with data from more customers. This will yield more valuable insights. Customer_id can be removed from the dataset or replaced with a random string (token) for anonymity to address the business owner's concerns about customer privacy. 
 
-2) If a membership points program is implemented, data before and after this change can be analyzed to determine if this change led to significantly higher sales, an increase in membership numbers, or overall greater customer visits. 
+2) If a membership points program is implemented, data before and after this change can be analyzed to determine if this change led to significantly higher sales, an increase in membership numbers, or overall greater customer visits.
+
+3) Look for further patterns within a longer range dataset, including whether day of the week or season has an impact on sales. 
