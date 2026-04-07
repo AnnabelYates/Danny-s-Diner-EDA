@@ -4,6 +4,16 @@ I worked on [Data with Danny's case study #1](https://8weeksqlchallenge.com/case
 
 ## Executive Summary:
 
+In MYSQL Workbench, I created a new schema for Danny's Diner and added 3 tables using the information provided. Using SQL, I wrote a series of queries to answer a list of questions posed by the owner of Danny's Diner. The queries included using joins to combine the three data tables, WHERE and CASE WHEN statements to filter information, and aggregations such as COUNT and SUM. Finally, I designed an easy to use spreadsheet in EXCEL for Danny's Diner to track customer sales. 
+
+From the analysis, I discovered that customers who are members had higher sales totals and number of visits than non-members. Additionally, ramen is the most popular menu item and was among the most times purchased by all customers within the dataset. In addition to the final EXCEL file, I presented the following business recommendations to Danny's Diner: 
+
+1) Add a points rewards system for members
+
+2) Develop new ramen products
+
+3) Track sales using the new spreadsheet for future analysis 
+
 ## Business Problem:
 
 Danny's Diner opened a new restuarant a few months ago focused on sushi, curry, and ramen. The owner would like to focus on their customer database to improve customer experience. Insights about his customers will determine changes to the existing customer loyalty program. He has provided samples from 3 datasets: sales, menu and members. Danny has provided a list of questions about his customers that he would like answered. Danny's Diner also needs a dataset containing the raw information provided that can be searched by employees without using SQL.    
@@ -28,7 +38,7 @@ creating schemas and data tables, basic queries, JOINs, SUMs, aggregations with 
 
 #### Spreadsheets:
 
-Excel, tables, data entry 
+Excel, tables, data entry, functions (SUM, VLOOKUP, IF)  
 
 ## Results and Business Recommendations:
 
@@ -95,6 +105,9 @@ With these conditions, customer A would have 1020 points and customer B would ha
 <img width="912" height="534" alt="image" src="https://github.com/user-attachments/assets/fc945bd7-ccbe-47cc-a473-397b6d9fcaf1" />
 
 ### Business Recommendations: 
+- Utilize the new spreadsheet to track customer sales. Enter the customer ID, date, and product, and the database will automatically calculate the price and whether the customer is a member. New members can be added to the member spreadsheet and the product menu can be altered with new products. These changes will automatically update on the sales database. In the future, this spreadsheet can be used to perform further data analysis. 
+
+<img width="959" height="762" alt="image" src="https://github.com/user-attachments/assets/03d13658-b4f2-487f-9a00-74beb43be798" />
 
 - Consider integrating a points system for members. This could assist with member recruitment and data indicates that members have higher sales than non-members.
    
